@@ -13,3 +13,17 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Carpetas build de los modulos
+app/build/
+
+# Archivos de keystore (Seguridad)
+*.jks
+*.keystore
+
+# Archivos de Google Services
+google-services.json
+
+# Archivos temporales de log y SO
+*.log
+Thumbs.d
